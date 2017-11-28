@@ -1,0 +1,89 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zens.udimensionservice</groupId>
+  <artifactId>UDimensionService</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>UDimensionService Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- log4j鏃ュ織 -->
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>1.2.16</version>
+	</dependency>
+    
+     <!-- JFinal Developers JARs -->
+    <dependency>
+		    <groupId>com.jfinal</groupId>
+		    <artifactId>jfinal-ext</artifactId>
+		    <version>3.1.4</version>
+   		</dependency>
+		<dependency>
+		    <groupId>org.apache.shiro</groupId>
+		    <artifactId>shiro-all</artifactId>
+		    <version>1.2.3</version>
+		</dependency>
+	
+		<dependency>
+		    <groupId>cn.dreampie</groupId>
+		    <artifactId>jfinal-quartz</artifactId>
+		    <version>0.2</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>cn.dreampie</groupId>
+		    <artifactId>jfinal-shiro</artifactId>
+		    <version>0.2</version>
+		</dependency>
+	
+		<dependency>
+		    <groupId>com.jfinal</groupId>
+		    <artifactId>cos</artifactId>
+		    <version>26Dec2008</version>
+		</dependency>
+	
+		<dependency>
+		    <groupId>freemarker</groupId>
+		    <artifactId>freemarker</artifactId>
+		    <version>2.3.9</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>c3p0</groupId>
+			<artifactId>c3p0</artifactId>
+			<version>0.9.1.2</version>
+		</dependency>
+		
+		<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>5.1.18</version>
+		</dependency>
+	
+		<dependency>
+		    <groupId>com.jfinal</groupId>
+		    <artifactId>jfinal</artifactId>
+		    <version>2.0</version>
+		</dependency>
+		
+		<!-- hessian -->
+		<dependency>
+		    <groupId>com.caucho</groupId>
+		    <artifactId>hessian</artifactId>
+		    <version>4.0.38</version>
+		</dependency>
+  </dependencies>
+  <build>
+    <finalName>UDimensionService</finalName>
+  </build>
+</project>
